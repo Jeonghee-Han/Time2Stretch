@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Time2Stretch" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="colorPrimaryVariant">@color/ActionBarColor</item>
+
+
+    </style>
+
+    <style name="Theme.Time2Stretch" parent="Base.Theme.Time2Stretch" />
+
+    <style name="Theme.Time2Stretch.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Time2Stretch.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Time2Stretch.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

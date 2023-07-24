@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/main_wholebody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:contentDescription="스트레칭"
+            android:src="@drawable/main_wholebody" />
+
+        <ImageButton
+            android:id="@+id/main_arm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:contentDescription="스트레칭"
+            android:src="@drawable/main_arm" />
+
+        <ImageButton
+            android:id="@+id/main_leg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:contentDescription="스트레칭"
+            android:src="@drawable/main_leg" />
+
+        <ImageButton
+            android:id="@+id/main_abdomen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/main_abdomen" />
+
+        <ImageButton
+        android:id="@+id/main_side"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/main_side" />
+
+        <ImageButton
+            android:id="@+id/main_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/main_back" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
