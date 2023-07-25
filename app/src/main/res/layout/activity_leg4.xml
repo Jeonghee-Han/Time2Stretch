@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:fontFamily="monospace"
-        android:text="옆으로 누워 위쪽 다리를 올렸다가 내리는 동작을 반복한다."
+        android:text="옆으로 누워서 위쪽 다리를 올렸다가 내리는 동작을 반복한다."
         app:layout_constraintBottom_toTopOf="@+id/floatingActionButton4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"

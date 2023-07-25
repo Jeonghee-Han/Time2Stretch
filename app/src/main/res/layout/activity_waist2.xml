@@ -15,7 +15,7 @@
         android:layout_height="66dp"
         android:layout_marginBottom="36dp"
         android:fontFamily="monospace"
-        android:text="똑바로 선 후 두 손을 마주 잡고 체중을 한 쪽 다리로 옮기면서 몸을 낮춘다. 이를 방향을 바꿔가면서 반복한다."
+        android:text="똑바로 선 후 두 손을 마주 잡고 체중을 한 쪽 다리로 옮기면서 몸을 낮춘다. 이를 방향을 바꿔주면서 반복한다."
         app:layout_constraintBottom_toTopOf="@+id/floatingActionButton4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"

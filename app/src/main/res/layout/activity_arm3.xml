@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:fontFamily="monospace"
-        android:text="한 팔로 다른 팔을 가슴 쪽으로 당기면서 3초 동안 유지한다."
+        android:text="한 팔로 다른 팔을 가슴 쪽으로 당기면서 3초 동안 자세를 유지한다."
         app:layout_constraintBottom_toTopOf="@+id/floatingActionButton4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.549"
