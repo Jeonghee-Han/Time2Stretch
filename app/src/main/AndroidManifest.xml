@@ -30,9 +30,13 @@
         <activity
             android:name=".abdomen1"
             android:exported="false" />
+<<<<<<< Updated upstream
 <!--        <activity-->
 <!--            android:name=".arm3_1"-->
 <!--            android:exported="false" />-->
+
+
+>>>>>>> Stashed changes
         <activity
             android:name=".leg2"
             android:exported="false" />
