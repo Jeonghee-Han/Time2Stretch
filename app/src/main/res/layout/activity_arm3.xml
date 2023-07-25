@@ -146,7 +146,7 @@
         app:backgroundTint="#CDDC39"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/baseline_arrow_forward_24"
+        android:src="@drawable/baseline_menu_24"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
