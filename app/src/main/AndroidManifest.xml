@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Time2Stretch"
         tools:targetApi="31">
+
+
+        <activity
+            android:name=".back"
+            android:exported="false" />
         <activity
             android:name=".back1"
             android:exported="false" />
@@ -22,6 +27,9 @@
             android:name=".waist1"
             android:exported="false" />
         <activity
+            android:name=".waist"
+            android:exported="false" />
+        <activity
             android:name=".abdomen3"
             android:exported="false" />
         <activity
@@ -30,13 +38,19 @@
         <activity
             android:name=".abdomen1"
             android:exported="false" />
-<<<<<<< Updated upstream
-<!--        <activity-->
-<!--            android:name=".arm3_1"-->
-<!--            android:exported="false" />-->
+        <activity
+            android:name=".abdomen"
+            android:exported="false" />
 
-
->>>>>>> Stashed changes
+        <!--        <activity-->
+        <!--            android:name=".arm3_1"-->
+        <!--            android:exported="false" />-->
+        <activity
+            android:name=".Leg"
+            android:exported="false" />
+        <activity
+            android:name=".leg1_1"
+            android:exported="false" />
         <activity
             android:name=".leg2"
             android:exported="false" />
@@ -59,6 +73,15 @@
             android:name=".arm1"
             android:exported="false" />
         <activity
+            android:name=".arm1_1"
+            android:exported="false" />
+        <activity
+            android:name=".Arm"
+            android:exported="false" />
+        <activity
+            android:name=".wholebody1"
+            android:exported="false" />
+        <activity
             android:name=".wholebody"
             android:exported="false"
             android:label="@string/title_activity_wholebody"
@@ -72,6 +95,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

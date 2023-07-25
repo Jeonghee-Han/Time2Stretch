@@ -13,7 +13,7 @@
 
 
         <ImageButton
-            android:id="@+id/arm_one"
+            android:id="@+id/armone"
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_marginTop="15dp"
@@ -21,7 +21,7 @@
             android:src="@drawable/arm_one" />
 
         <ImageButton
-            android:id="@+id/arm_two"
+            android:id="@+id/armtwo"
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_marginTop="15dp"
@@ -29,7 +29,7 @@
             android:src="@drawable/arm_two" />
 
         <ImageButton
-            android:id="@+id/arm_three"
+            android:id="@+id/armthree"
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_marginTop="15dp"
