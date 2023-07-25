@@ -30,9 +30,9 @@
         <activity
             android:name=".abdomen1"
             android:exported="false" />
-        <activity
-            android:name=".arm3_1"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".arm3_1"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".leg2"
             android:exported="false" />
@@ -49,10 +49,10 @@
             android:name=".arm3"
             android:exported="false" />
         <activity
-            android:name=".arm_2"
+            android:name=".arm2"
             android:exported="false" />
         <activity
-            android:name=".arm_birddog"
+            android:name=".arm1"
             android:exported="false" />
         <activity
             android:name=".wholebody"

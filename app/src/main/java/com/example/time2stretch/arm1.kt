@@ -3,9 +3,9 @@ package com.example.time2stretch
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class arm_2 : AppCompatActivity() {
+class arm1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_arm2)
+        setContentView(R.layout.activity_arm1)
     }
 }
