@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         val main_wholebody = findViewById<ImageButton>(R.id.main_wholebody)
         val main_arm= findViewById<ImageButton>(R.id.main_arm)
         val main_leg= findViewById<ImageButton>(R.id.main_leg)
@@ -31,13 +30,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
         //다리
         main_leg.setOnClickListener(){
             val intent = Intent(this, Leg::class.java)
             startActivity(intent)
         }
-//복부
+
+        //복부
         main_abdomen.setOnClickListener(){
             val intent = Intent(this, abdomen::class.java)
             startActivity(intent)
@@ -54,9 +53,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, back::class.java)
             startActivity(intent)
         }
-
-
-
-
     }
 }
