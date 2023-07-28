@@ -10,18 +10,19 @@ class waist : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_waist)
 
-        val side_one = findViewById<ImageButton>(R.id.side_one)
-        val side_two = findViewById<ImageButton>(R.id.side_two)
+        val sideone = findViewById<ImageButton>(R.id.sideone)
+        val sidetwo = findViewById<ImageButton>(R.id.sidetwo)
 
 
-        //나비 스트레칭
-        side_one.setOnClickListener(){
+
+        //나비스트레칭
+        sideone.setOnClickListener{
             val intent = Intent(this@waist, waist1::class.java)
             startActivity(intent)
         }
 
         //측면로우번지
-        side_two.setOnClickListener(){
+        sidetwo.setOnClickListener{
             val intent = Intent(this@waist, waist2::class.java)
             startActivity(intent)
         }
