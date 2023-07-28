@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Time2Stretch"
         tools:targetApi="31">
+
+
+
+        <activity
+            android:name=".back"
+            android:exported="false" />
         <activity
             android:name=".back1"
             android:exported="false" />
@@ -20,6 +26,9 @@
             android:exported="false" />
         <activity
             android:name=".waist1"
+            android:exported="false" />
+        <activity
+            android:name=".waist"
             android:exported="false" />
         <activity
             android:name=".abdomen3"
@@ -31,7 +40,13 @@
             android:name=".abdomen1"
             android:exported="false" />
         <activity
-            android:name=".arm3_1"
+            android:name=".abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Leg"
+            android:exported="false" />
+        <activity
+            android:name=".leg1_1"
             android:exported="false" />
         <activity
             android:name=".leg2"
@@ -49,10 +64,20 @@
             android:name=".arm3"
             android:exported="false" />
         <activity
-            android:name=".arm_2"
+            android:name=".arm2"
             android:exported="false" />
         <activity
-            android:name=".arm_birddog"
+            android:name=".arm1"
+            android:exported="false" />
+        <activity
+            android:name=".arm1_1"
+            android:exported="false" />
+
+        <activity
+            android:name=".Arm"
+            android:exported="false" />
+        <activity
+            android:name=".wholebody1"
             android:exported="false" />
         <activity
             android:name=".wholebody"
@@ -64,10 +89,11 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

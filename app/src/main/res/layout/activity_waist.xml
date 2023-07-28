@@ -13,7 +13,7 @@
 
 
         <ImageButton
-            android:id="@+id/side_one"
+            android:id="@+id/sideone"
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_marginTop="15dp"
@@ -21,7 +21,7 @@
             android:src="@drawable/side_one" />
 
         <ImageButton
-            android:id="@+id/side_two"
+            android:id="@+id/sidetwo"
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_marginTop="15dp"

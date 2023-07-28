@@ -29,7 +29,7 @@
             android:src="@drawable/leg_two" />
 
         <ImageButton
-            android:id="@+id/arm_three"
+            android:id="@+id/leg_three"
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_marginTop="15dp"
@@ -37,7 +37,7 @@
             android:src="@drawable/leg_three" />
 
         <ImageButton
-            android:id="@+id/arm_four"
+            android:id="@+id/leg_four"
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_marginTop="15dp"
