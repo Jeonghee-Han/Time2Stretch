@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Leg::class.java)
             startActivity(intent)
         }
-//복부
+        //복부
         main_abdomen.setOnClickListener(){
             val intent = Intent(this, abdomen::class.java)
             startActivity(intent)
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
 
         //허리
         main_side.setOnClickListener(){
-            val intent = Intent(this, side::class.java)
+            val intent = Intent(this, waist::class.java)
             startActivity(intent)
         }
 

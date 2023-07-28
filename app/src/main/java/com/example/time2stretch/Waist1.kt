@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import android.widget.ProgressBar
 import android.widget.TextView
-class arm2 : AppCompatActivity() {
+class waist1 : AppCompatActivity() {
     private lateinit var timerUtil: TimerActivity
     private val stretchingTime = 20 // 해당 스트레칭에 맞게 소요 시간 설정
     private var isTimerRunning = false // 타이머 동작 여부를 나타내는 변수 추가
@@ -14,7 +14,7 @@ class arm2 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_arm2)
+        setContentView(R.layout.activity_waist1)
 
         progressBar2 = findViewById(R.id.progressBar2)
         progressBar2.max = 100
@@ -41,7 +41,7 @@ class arm2 : AppCompatActivity() {
         // FAB 클릭 리스너 추가
         floatingActionButton7.setOnClickListener {
 
-            val intent = Intent(this@arm2, arm1_1::class.java)
+            val intent = Intent(this@waist1, waist2::class.java)
             startActivity(intent)
             timerUtil.pauseTimer()
         }

@@ -32,6 +32,5 @@ class abdomen: AppCompatActivity() {
             val intent = Intent(this@abdomen, abdomen3::class.java)
             startActivity(intent)
         }
-
     }
 }
